@@ -28,6 +28,7 @@
     "eslint-config-next": "^15.5.12",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.8.1",
+    "tailwind": "^2.3.1",
     "typescript": "^5.9.3"
   }
 }
