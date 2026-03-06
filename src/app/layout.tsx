@@ -1,20 +1,19 @@
-import type { Metadata } from  'next';
-import { inter } from './ui/fonts'; 
+import type { Metadata } from 'next';
+import { inter } from './ui/fonts';
 import './globals.css';
 
-export const metadata : Metadata = {
-  title: "ACME"  
+export const metadata: Metadata = {
+  title: 'ACME',
 };
 
-export default function RootLayout( 
-  { children }: {children:React.ReactNode}
-) {
-
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html>
-      <body className= { inter.className  } >
-        { children } 
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
-  );    
-};
+  );
+}
