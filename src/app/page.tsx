@@ -1,3 +1,7 @@
 export default function Page() {
-  return 'Sistema em construção.';
-}
+  return (
+    <main>
+      <h1>Sistema em contrução.</h1>
+    </main>
+  );
+};
